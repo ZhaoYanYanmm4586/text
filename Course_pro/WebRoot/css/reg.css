@@ -1,0 +1,60 @@
+/* 最外层容器*/
+body{
+    background-color: #f0f0f0;  
+}
+.container{
+    padding-top: 20px;
+    width: 520px;
+    height: 520px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 5px;
+}
+
+/*输入框区域*/
+.input-area{
+    width:450px ;
+    height: 100px;
+    margin-left: 30px;
+ }
+.username-area{
+    width: 100%;
+    height: 40px ;
+    line-height: 40px;
+}
+
+.input-area .username{
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.input-area .tip{
+    display: block;
+    font-size: 10px;
+    float: right;
+    display: none;
+}
+.input-area input{
+    width: 430px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+
+
+/*登录按钮*/
+.login-btn{
+    width: 430px;
+    height: 40px;
+    background-color: #ff6000; /*背景颜色*/
+    border: none; /*边框取消*/
+    line-height: 40px;
+    color: white;   /*文字颜色*/
+    text-align: center;  /*文字水平居中*/
+    font-size: 20px; /*文字大小*/
+    margin-left: 30px; /*外间距，左间距*/
+    margin-top: 20px;/*外间距，上间距*/
+    border-radius: 5px;
+}
+
+

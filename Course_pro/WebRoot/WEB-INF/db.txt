@@ -1,0 +1,14 @@
+create table Course  --¿Î³Ì
+(
+    courseNo number primary key,
+    courseName nvarchar2(10) not null,
+	courseTeacher nvarchar2(10) not null,
+    courseAddress nvarchar2(50) not null
+);
+
+create table userTbl
+(
+  
+  userName nvarchar2(30) primary key,
+  userPwd  nvarchar2(30) not null
+)

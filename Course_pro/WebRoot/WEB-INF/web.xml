@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <!-- <display-name>Course_pro</display-name> -->
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+    
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>UserControll</servlet-name>
+    <servlet-class>com.yougex.controll.UserControll</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CourseControll</servlet-name>
+    <servlet-class>com.yougex.controll.CourseControll</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserControll</servlet-name>
+    <url-pattern>/UserControll</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CourseControll</servlet-name>
+    <url-pattern>/CourseControll</url-pattern>
+  </servlet-mapping>
+</web-app>
